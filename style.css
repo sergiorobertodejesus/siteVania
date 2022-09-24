@@ -1,0 +1,65 @@
+@charset "UTF-8"
+@font-face {
+    font-family:'antony' ;
+    src: url('fonte/chopin_script/ChopinScript.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    
+}
+body {
+    background-color: #f3d5da;
+}
+img {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    justify-content: center;
+}
+aside > ul {
+    list-style-position:inside ;
+    
+    list-style-type: '\2714\00A0\00A0';
+font-size: large;
+}
+section.salgados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    justify-content: center;
+    
+ 
+}
+
+
+
+
+h1 {
+        font-family: 'antony', Times, serif;
+        font-size: 3em;
+        font-weight: normal;
+        text-align: center;
+        color: maroon;
+    
+    
+}
+h2 {
+    
+        font-family: 'antony', Times, serif;
+        font-size: 2em;
+        font-weight: normal;    
+        text-align: center;
+}
+header {
+    background-color: pink;
+    border: 2px solid plum;
+    border-radius: 10px;
+}
